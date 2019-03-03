@@ -30,15 +30,19 @@ Number of variables            68
 
 # Codebook summary table
 
----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 Label   Variable                                             Class       # unique  Missing  Description  
                                                                            values                        
-------- ---------------------------------------------------- --------- ---------- --------- -------------
-        **[subject]**                                        integer           30  0.00 %                
+------- ---------------------------------------------------- --------- ---------- --------- -----------------
+        **[subject]**                                        integer           30  0.00 %   subject 1-30             
 
-        **[activity]**                                       factor             6  0.00 %                
+        **[activity]**                                       factor             6  0.00 %   measured activity             
 
-        **[timeBodyAccelerometer-mean-X]**                   numeric          180  0.00 %                
+        
+       ** SAMPLE DATA:
+
+
+        **[timeBodyAccelerometer-mean-X]**                   numeric          180  0.00 %   sample data             
 
         **[timeBodyAccelerometer-mean-Y]**                   numeric          180  0.00 %                
 
