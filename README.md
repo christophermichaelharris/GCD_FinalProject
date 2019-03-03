@@ -33,4 +33,5 @@ Resulting table from the run_analysis script. Data is tidy because:
 * Each observation forms a row -- there are 180 rows
 * The observational unit is in one table
 
-
+## Codebook.pdf
+Codebook generated using R Package dataMaid. 
