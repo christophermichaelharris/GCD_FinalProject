@@ -11,21 +11,21 @@ The run_analysis.R script will create a directory titled "UCI HAR Dataset" and d
 
 ## The run_analysis Script
 This script will take the raw data and generate a new tidydata text file. The script does the following:
-* Downloads the file and reads the relevant sub-files:
-** x_test.txt
-** x_train.txt
-** y_test.txt
-** y_train.txt
-** subject_test.txt
-** subject_train.txt
+1. Downloads the file and reads the relevant sub-files:
+* x_test.txt
+* x_train.txt
+* y_test.txt
+* y_train.txt
+* subject_test.txt
+* subject_train.txt
 
-* Merges all of the data into one data set
+2. Merges all of the data into one data set
 
-* Uses descriptive activity names to name the activities in the data set and appropriately labels the data set with descriptive variable names.
+3. Gathers descriptive activity and variable names from the relevant files from the source data to name the activities and variables in the data set.
 
-* Extracts mean and standard deviation observations
+4. Extracts the mean and standard deviation observations from the dataset
 
-* Creates a new dataset with the average of each variable for each activity and each subject titled tidydata.txt
+5. Creates a new dataset with the average of each variable for each activity and each subject titled tidydata.txt
 
 ## Tidydata.txt
 Resulting table from the run_analysis script. Data is tidy because:
